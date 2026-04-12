@@ -14,6 +14,8 @@ This project analyzes a Brazilian e-commerce dataset to uncover insights into sa
 
 The dataset contains information on:
 
+Kaggle Dataset: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?utm_source=chatgpt.com
+
 * Customers
 * Orders
 * Payments
