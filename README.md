@@ -1,4 +1,4 @@
-# 📊 Brazilian E-Commerce Data Analysis (SQL Project)
+# 📊 Brazilian E-Commerce Data Analysis (“End-to-End E-commerce Sales & Customer Analytics | SQL + Tableau”)
 
 ## 🚀 Project Overview
 
