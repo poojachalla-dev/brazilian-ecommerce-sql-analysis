@@ -1,20 +1,32 @@
-# 📊 Brazilian E-Commerce Data Analysis (“End-to-End E-commerce Sales & Customer Analytics | SQL + Tableau”)
+# 📊 Brazilian E-Commerce Data Analysis
+
+### End-to-End E-commerce Sales & Customer Analytics | SQL + Python
+
+---
 
 ## 🚀 Project Overview
 
-This project analyzes a Brazilian e-commerce dataset to uncover insights into sales, customers, delivery performance, and product trends using SQL.
+This project explores a real-world Brazilian e-commerce dataset to analyze sales performance, customer behavior, delivery efficiency, and product trends.
+
+Using SQL and PostgreSQL, the data is transformed into actionable insights that can help businesses improve decision-making, optimize logistics, and increase revenue.
+
+---
 
 ## 🛠️ Tools & Technologies
 
 * PostgreSQL
 * SQL (Joins, CTEs, Window Functions)
-* (Optional) Python / Streamlit / Power BI
+* Python (Matplotlib) *(for visualization)*
+* VS Code
+
+---
 
 ## 📂 Dataset
 
-The dataset contains information on:
+Dataset Source: Brazilian E-Commerce Public Dataset by Olist
+(Available on Kaggle)
 
-Kaggle Dataset: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?utm_source=chatgpt.com
+The dataset includes:
 
 * Customers
 * Orders
@@ -23,30 +35,107 @@ Kaggle Dataset: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?utm_
 * Reviews
 * Sellers
 
+---
+
 ## 🎯 Key Business Questions
 
-* What is the total revenue and monthly growth?
-* Who are the top customers?
-* Which product categories perform best?
-* How does delivery time impact customer reviews?
+* What is the total revenue and monthly growth trend?
+* Who are the top-performing customers?
+* Which product categories generate the most revenue?
+* How does delivery time impact customer satisfaction?
+* What are the peak sales periods?
 
-## 📊 Key Insights (to be updated)
+---
 
-*
-*
-*
+## 📊 Key Insights
+
+* A small number of states contribute disproportionately to total revenue
+* Seasonal spikes significantly impact sales performance
+* Faster deliveries are strongly correlated with higher review scores
+* Certain product categories consistently outperform others
+
+---
 
 ## 🧠 SQL Skills Demonstrated
 
-* Complex JOINs
-* Aggregations
-* Window Functions
-* Data Cleaning
+* Complex JOIN operations across multiple tables
+* Common Table Expressions (CTEs) for modular queries
+* Window Functions for ranking and trend analysis
+* Data cleaning and transformation techniques
+
+---
 
 ## 📸 Dashboard / Visualizations
 
-(Add screenshots here later)
+* SQL query outputs visualized using Python (Matplotlib)
+* (Optional) Can be extended to dashboards using Tableau or Power BI
+
+*(Add screenshots here)*
+
+---
 
 ## 🔗 Project Structure
 
-(Add folder explanation)
+```
+olist-sql-project/
+│
+├── sql/
+│   ├── 01_create_tables.sql
+│   ├── 02_data_cleaning.sql
+│   ├── 03_analysis_queries.sql
+│
+├── python/
+│   └── analysis.py
+│
+├── images/
+│   └── charts.png
+│
+└── README.md
+```
+
+---
+
+## ⚙️ How to Run This Project
+
+1. Clone the repository
+
+```
+git clone https://github.com/poojachalla-dev/brazilian-ecommerce-sql-analysis.git
+```
+
+2. Create database in PostgreSQL
+
+```sql
+CREATE DATABASE olist_project;
+```
+
+3. Execute SQL scripts in order:
+
+* Create tables
+* Clean data
+* Run analysis queries
+
+4. (Optional) Run Python visualization:
+
+```
+python python/analysis.py
+```
+
+---
+
+## 💡 What I Learned
+
+* Designing real-world SQL analysis workflows
+* Writing efficient and scalable queries
+* Connecting databases with Python for visualization
+* Translating raw data into business insights
+
+---
+
+## 📬 Contact
+
+Feel free to connect or provide feedback!
+
+---
+
+⭐ If you found this project useful, consider giving it a star!
